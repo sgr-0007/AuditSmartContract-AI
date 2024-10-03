@@ -1,0 +1,25 @@
+{
+  "name": "auditsmartcontract-cli",
+  "version": "1.0.0",
+  "description": "A CLI tool to audit smart contracts using OpenAI",
+  "main": "index.js",
+  "bin": {
+    "auditai": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "smart-contracts",
+    "openai",
+    "audit"
+  ],
+  "author": "Sagar hs",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^12.1.0",
+    "inquirer": "^8.0.0",
+    "openai": "^4.67.1"
+  }
+}
